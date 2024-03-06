@@ -15,6 +15,7 @@ page_type: sample
 urlFragment: azure-search-openai-demo
 ---
 
+
 # ChatGPT + Enterprise data with Azure OpenAI and AI Search
 
 > [!IMPORTANT]
