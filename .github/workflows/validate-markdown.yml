@@ -25,7 +25,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Check broken Paths
         id: check-broken-paths
-        uses: john0isaac/action-check-markdown@latest
+        uses: john0isaac/action-check-markdown@main
         with:
           command: check_broken_paths
           directory: ./
@@ -43,7 +43,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Run Check URLs Country Locale
         id: check-urls-locale
-        uses: john0isaac/action-check-markdown@latest
+        uses: john0isaac/action-check-markdown@main
         with:
           command: check_urls_locale
           directory: ./
@@ -60,7 +60,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Run Check Broken URLs
         id: check-broken-urls
-        uses: john0isaac/action-check-markdown@latest
+        uses: john0isaac/action-check-markdown@main
         with:
           command: check_broken_urls
           directory: ./
